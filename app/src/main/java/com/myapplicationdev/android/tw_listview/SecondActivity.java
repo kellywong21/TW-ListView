@@ -22,7 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        tvYear = (TextView) findViewById(R.id.tvYear);
+        tvYear = findViewById(R.id.tvYear);
 
         // Create a few module objects in Module array
         module = new ArrayList<Module>();
