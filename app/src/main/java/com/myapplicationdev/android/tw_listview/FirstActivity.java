@@ -20,7 +20,7 @@ public class FirstActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        lv = (ListView) findViewById(R.id.lvYear);
+        lv =  findViewById(R.id.lvYear);
         aa = new ArrayAdapter<>(this,R.layout.rowyear,R.id.tvYear,al);
         al.add("Year 1");
         al.add("Year 2");
