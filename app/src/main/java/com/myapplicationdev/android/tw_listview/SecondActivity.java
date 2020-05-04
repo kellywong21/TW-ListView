@@ -23,12 +23,13 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         tvYear = findViewById(R.id.tvYear);
+        lv = findViewById(R.id.lvModules);
 
         // Create a few module objects in Module array
         module = new ArrayList<Module>();
         module.add(new Module("C208",true));
-        module.add(new Module("C208",false));
-        module.add(new Module("C208",true));
+        module.add(new Module("C200",false));
+        module.add(new Module("C346",true));
 
 
         // Link this Activity object, the row.xml layout for

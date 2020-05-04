@@ -31,6 +31,7 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                intent.putExtra("year",al.get(i));
                 startActivity(intent);
             }
         });
